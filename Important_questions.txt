@@ -1,0 +1,30 @@
+1. What is Deep Learning? 
+Field of machine learning that uses neural network with multiple layers to capture complex pattern from the data. 
+These models learns the pattern by itself from raw input like image without doing feature engineering. It called deep because it has multiple layers between input and output. This way its learn sequencially. 
+
+2. Why Deep Learning? 
+Traditional models works well when the features are clear. It struggle with data with high dimension, non linear relation and unstructured data. 
+Deep learning can extract useful pattern from non-linear and complex data automatically from raw data. This makes it ideal for task like- 
+Image classification
+Speech recognition
+
+
+3. Why classical models fails? 
+It requires manual feature engineering
+Struggle with non-linear pattern 
+Cannot work with high dimensional data like pixel and audio signal 
+
+Image recognition: 784 pixel inputs in MNIST → Logistic Regression won't capture patterns like shapes
+
+
+
+
+4. NN vs CNN 
+
+Neural Network - Every neuron is connected to every other neuron in the next layer. Suitable for tabular data and low dimensional input. 
+
+Convolutional Neural Network - Designed for spacial data like images. It uses filter to scan the image and detect local pattern like edges, texture and objects. CNN preserves spacial relationship. 
+
+
+
+
